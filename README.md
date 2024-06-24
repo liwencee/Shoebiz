@@ -1,6 +1,6 @@
 # Shoebiz
 
-This ptoject is to dockerize a code base and deploy on docker hub. this dockerfile is downloaded and deoploy into kubernetes and later the website is deployed on the brouser
+This project is to dockerize a code base and deploy on docker hub. this dockerfile is downloaded and deoploy into kubernetes and later the website is deployed on the brouser
 
 STEPS 
 **************************************************************

@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: myfirstpod
+  labels:
+    env: prod
+spec:
+  containers:
+    - name: multi-container-pod 
+      image: lehqan/shoewebserver
+      ports:
+       - containerPort: 80

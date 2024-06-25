@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: weather-service
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: weather-service
+  template:
+    metadata:
+      labels:
+        app: weather-service
+    spec:
+      containers:
+      - name: weather-service
+        image: your-dockerhub-username/weather-service:latest
+        ports:
+        - containerPort: 80
